@@ -1,0 +1,71 @@
+#head
+{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: coral;
+    padding-left: 500px;
+}
+#box
+{
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: 150px 1fr 1fr 1fr;
+    grid-template-rows: 150px 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding: 30px;
+    background-color: cornflowerblue;
+    margin: auto;
+}
+
+#backgroundimg
+{
+    background-image: url(https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555307650/shape/mentalfloss/red-nose-clown-hed.jpg);
+    background-repeat: repeat;
+}
+
+#meme1
+{
+    background-image: url(https://pics.me.me/anti-vax-mom-doesnt-vaccinate-kid-kid-dies-mom-u-37484128.png);
+    background-size: contain;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+#meme2
+{
+    background-image: url(https://static.boredpanda.com/blog/wp-content/uploads/2019/02/funny-anti-vaxx-memes-29-5c701782a8feb__700.jpg);
+    background-size: contain;
+    grid-row: 3 / 5;
+    grid-column: 1 / 3;
+}
+
+#meme3
+{
+    background-image: url(https://i.redd.it/cbiwp1ju15m31.png);
+    background-size: contain;
+    grid-row: 1 / 3;
+    grid-column: 2 / 5;
+}
+
+#meme4
+{
+    background-image: url(https://imgix.ranker.com/user_node_img/50092/1001829889/original/blindness-photo-u1?w=650&q=50&fm=pjpg&fit=crop&crop=faces);
+    grid-row: 3 / 6;
+    grid-column: 3 / 5;
+}
+
+#meme5
+{
+    background-image: url(https://66.media.tumblr.com/317648fc502f7a18cb82fbe951d5d4dd/tumblr_pmb51fsIiq1sxa7cb_540.jpg);
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    background-size: contain;
+}
+
+.default
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
