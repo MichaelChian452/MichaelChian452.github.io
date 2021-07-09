@@ -3,7 +3,11 @@ site_url: https://michael-c-docs.com/
 
 nav:
   - Home: index.md
-  - Introduction to Java: java.md
+  - Java Course:
+    - Introduction to Java: course/java.md
+    - Variables: course/vars.md
+    - Loops: course/loops.md
   - Test: test.md
 
-theme: readthedocs
+theme: 
+  name: material
