@@ -1,0 +1,9 @@
+site_name: Michael
+site_url: https://michael-c-docs.com/
+
+nav:
+  - Home: index.md
+  - Introduction to Java: java.md
+  - Test: test.md
+
+theme: readthedocs
